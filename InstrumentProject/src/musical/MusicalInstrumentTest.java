@@ -5,7 +5,7 @@ public class MusicalInstrumentTest {
 	public static void main(String[] args) {
 		
 		//String Based
-		System.out.println("===========String Based Musical Instruments==========");
+		System.out.println("===========String Based Musical Instruments==========\n");
 	    Guitar guitar = new Guitar();
 	    Violin violin = new Violin();
 	    Cello cello = new Cello();
@@ -32,7 +32,7 @@ public class MusicalInstrumentTest {
 	    electronicGuitar.preset();
 	    
 	    //DrumBased
-	    System.out.println("===========Drum Based Musical Instruments==========");
+	    System.out.println("\n===========Drum Based Musical Instruments==========\n");
 	    Tabla tabla = new Tabla();
 	    Dhol dhol  = new Dhol();
 //	    tabla.use();
@@ -46,7 +46,7 @@ public class MusicalInstrumentTest {
 	    dhol.playRhythm();
 	    
 	    //AirBased
-	    System.out.println("===========Air Based Musical Instruments==========");
+	    System.out.println("\n===========Air Based Musical Instruments==========\n");
 	    Flute flute = new Flute();
 	    Harmonium harmonium = new Harmonium();
 	    

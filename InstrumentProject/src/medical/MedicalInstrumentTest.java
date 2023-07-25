@@ -6,7 +6,7 @@ public class MedicalInstrumentTest {
 		//Pathological Instrument
 		Glucometer glucometer =  new Glucometer();
 		ECGMachine ecgMachine = new ECGMachine();
-		System.out.println("===========Pathological Based Musical Instruments==========");
+		System.out.println("===========Pathological Medical Instruments==========\n");
 		glucometer.operate();
 		glucometer.analyzeSample();
 		glucometer.displayResult();
@@ -18,7 +18,7 @@ public class MedicalInstrumentTest {
 		//Surgical Instrument
 		SurgicalCutter surgicalCutter = new SurgicalCutter();
 		SurgicalNeedle surgicalNeedle = new SurgicalNeedle();
-		System.out.println("===========Surgical Based Musical Instruments==========");
+		System.out.println("\n===========Surgical Medical Instruments================\n");
 		surgicalCutter.operate();
 		surgicalCutter.sterile();
 		surgicalCutter.performIncision();
