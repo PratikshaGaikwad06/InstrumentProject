@@ -7,10 +7,12 @@ public class MeasuringInstrumentTest {
 		//Length Measuring Instruments
 		Caliper caliper = new Caliper();
 		TapeMeasure tapeMeasure = new TapeMeasure();
+//      caliper.measure();
 		caliper.measure();
 		caliper.calibrate();
 		caliper.takeMeasurement();
 		System.out.println("------------------------------------------------------");
+//		tapeMeasure.use();
 		tapeMeasure.measure();
 		tapeMeasure.calibrate();
 		tapeMeasure.extendAndMeasure();
