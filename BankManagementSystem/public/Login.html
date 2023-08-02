@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
 
-</body>
+<head>
+<meta charset="UTF-8">
+	<title>Login here</title>
+	<link rel="stylesheet" href="Login.css">
+</head>
+	
+	
+	<body>
+		<script src="Validation.js">
+		</script>
+		
+		
+		<h2>Login Here</h2>	
+		<form action="DashBoard.html">
+			<table style="margin-right: auto; margin-left: auto">
+				<tr>
+					<td>
+						<label>Enter username</label>
+					</td>
+					<td>
+						 <input  type=text  id="username" onkeyup="validateUsername()" onkeyup="clearNameErrMsg()" autocomplete= "off"   name="uname" required/>
+					<span id="usernameErr" ></span>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<label>Enter password</label> 
+					</td>
+					<td>
+						<input  type=password id="password" onkeyup="validatePassword()"  onkeyup="clearPassErrMsg()" autocomplete= "off" name="upass" required/>
+					 <span id="passwordErr"  ></span>
+					</td>
+					
+				</tr>
+				<tr>
+					<td colspan="2">
+						Not a member yet? Click <a href="Register.html">Here</a> to register<br>	
+					
+						 Reset password? Click <a href="ResetPassword.html">Here</a><br>	
+					
+						 Forgot password? Click <a href="ForgotPassword.html">Here</a><br>		
+					</td>
+					
+				</tr>
+			 <tr>
+          	<td colspan="2">
+            	<button onclick="return validate();" type="submit">Login</button>	<br>
+            	<button type="button" onclick="clearTheLoginForm()" style="background-color: red">Clear</button>
+          </td>
+        </tr>
+		
+			</table>
+		</form>
+		
+		
+		
+		
+	</body>
+
 </html>
