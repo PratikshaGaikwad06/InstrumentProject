@@ -1,0 +1,51 @@
+create table Register
+		(
+			AccountNumber varchar(50),
+                                                                              LoginPassword varchar(50),
+                                                                              TransactionPassword varchar(50),
+                                                                               
+		)
+
+
+create table Login
+		(
+			UserName varchar(50),
+                                                                              password varchar(50),
+                                                                              
+                                                                               
+		)
+
+
+create table Transaction
+		(
+			TransactionID varchar(150),
+                                                                              FromAccountNo varchar(80),
+                                                                              ToAccountNo varchar(80),
+                                                                              Debit bit,
+                                                                               Credit bit,
+                                                                               TotalBalance int,
+                                                                              Balance int,
+                                                                              Date date,
+                                                                               
+		)
+
+create table AddressDetail
+		(
+			
+			Address varchar(150),
+                                                                              State varchar(80),
+                                                                              city varchar(80),
+                                                                              pincode int
+		)
+
+
+create table CreateNewAccount
+		(
+			
+			firstName varchar(20),
+                                                                              LastName varchar(20),
+                                                                              mobileNumber varchar(50),
+                                                                              emailId varchar(80),
+                                                                              adharCard varchar(12),
+                                                                              birthDate date
+		)
